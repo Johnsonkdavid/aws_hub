@@ -1,0 +1,11 @@
+dev-ah-portal-app
+ah-dev-portal-group
+	s3://codepipeline-us-east-1-207196076619/dev-ah-portal-pipeli/SourceArti/yEMOEIU.zip?eTag=c61f10a2ffb65f995c9a368a06b9083e-1
+	
+	
+	
+	import boto3
+
+def lambda_handler(event, context):
+    print event[u'Records'][0][u's3'][u'object'][u'key']
+	
