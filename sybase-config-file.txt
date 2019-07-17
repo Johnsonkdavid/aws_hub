@@ -1,0 +1,36 @@
+New Server Configuration Summary
+--------------------------------
+SAP ASE
+SAP ASE Name                                  AH_TEST_ASE_16
+System Administrator's Password               ****** (ahinfo@123)
+Enable SAP ASE for SAP ASE Cockpit monitoring true
+Technical user                                tech_user
+Technical user password                       ******** (ahinfo@123)
+Host Name                                     ip-172-31-80-172.ec2.internal
+Port Number                                   5000
+Application Type                              Mixed (OLTP/DSS)
+Create sample databases                       true
+Page Size                                     4k
+Error Log
+/opt/sybase/sybase/ASE-16_0/insta
+Default Language                              us_english
+Default Character Set                         utf8
+Default Sort Order                            altdict
+Master Device
+/opt/sybase/sybase/data/master.da
+Master Device Size (MB)                       65
+Master Database Size (MB)                     26
+System Procedure Device
+/opt/sybase/sybase/data/sysprocs.
+System Procedure Device Size (MB)             196
+System Procedure Database Size (MB)           196
+System Device
+/opt/sybase/sybase/data/sybsysdb.
+System Device Size (MB)                       6
+System Database Size (MB)                     6
+Tempdb Device
+/opt/sybase/sybase/data/tempdbdev
+Tempdb Device Size (MB)                       100
+Tempdb Database Size (MB)                     100
+Enable PCI                                    false
+Optimize SAP ASE Configuration                false
